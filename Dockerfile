@@ -1,8 +1,8 @@
 FROM php:7-alpine
 
-LABEL maintainer="fabian.grassl@db-n.com"
+LABEL maintainer="m.maurer@siwa.at"
 
-ENV DEPLOYER_VERSION=5.1.3
+ENV DEPLOYER_VERSION=6.8.0
 
 
 RUN apk add --no-cache \
